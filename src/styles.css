@@ -46,9 +46,13 @@ body {
     font-family: Tahoma, sans-serif;
     text-align: center;
     margin: 30px;
-    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    background-image: linear-gradient(120deg, #f665c296 0%, #da8971 100%);
     transition: 0.1s;
+    -webkit-backface-visibility: visible;
     backface-visibility: visible;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 6px 4px 4px #ffc0cbcf;
   }
   
   .balloons {
