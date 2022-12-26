@@ -7,6 +7,15 @@ background-image: linear-gradient(251deg, #00d790 0%, #d40066 100%)
 
 
 }
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+.container {
+	flex-grow: 1;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+}
 .wrapper {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -22,7 +31,8 @@ background-image: linear-gradient(251deg, #00d790 0%, #d40066 100%)
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
 		rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 	border-radius: 20px;
-	background-color: #12192c;
+	min-height: 350px;
+	background-color: #aa6172;
 }
 .input_container {
 	padding: 4em;
@@ -55,7 +65,7 @@ background-image: linear-gradient(251deg, #00d790 0%, #d40066 100%)
 	border-top-right-radius: 15px;
 	border-bottom-right-radius: 15px;
 }
-.spooky_bg {
+.right {
 	background: url(6_2.jpg);
 	background-size: cover;
 	border-top-right-radius: 20px;
@@ -70,7 +80,7 @@ background-image: linear-gradient(251deg, #00d790 0%, #d40066 100%)
 	);
 	clip-path: polygon(100% 0%, 99% 50%, 100% 100%, 23% 100%, 11% 51%, 0 0);
 }
-.spooky_bg2 {
+.top {
 	display: none;
 	background: url(5.jpg);
 	background-size: cover;
@@ -80,11 +90,11 @@ background-image: linear-gradient(251deg, #00d790 0%, #d40066 100%)
 #error {
 	color: #35b7a4;
 }
-@media (max-width: 768px) {
-	.spooky_bg {
+@media 	screen and (max-width: 768px) {
+	.right {
 		display: none;
 	}
-	.spooky_bg2 {
+	.top {
 		display: block !important;
 		height: 300px;
 		-webkit-clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%);
@@ -92,7 +102,15 @@ background-image: linear-gradient(251deg, #00d790 0%, #d40066 100%)
 	}
 }
 
-.credit a{
+ a{
+	text-decoration: none;
+	color: #00d1b2;
+	font-weight: 800;
+	}
+a:hover {
+	color: pink
+}
+/* .credit a{
 	text-decoration: none;
 	color: #B721FF;
 	font-weight: 800;
@@ -102,3 +120,21 @@ background-image: linear-gradient(251deg, #00d790 0%, #d40066 100%)
 	  margin: 10px;
 	}
 
+
+.columns {
+	margin-left: -0.75rem;
+	margin-right: -0.75rem;
+	margin-top: -0.75rem;
+}
+.columns:last-child {
+	margin-bottom: -0.75rem;
+}
+@media screen and (min-width: 769px), print {
+	.column.is-half, .column.is-half-tablet {
+		flex: none;
+		width: 50%;
+	}
+.columns:not(.is-desktop) {
+	display: flex;
+}
+} */
