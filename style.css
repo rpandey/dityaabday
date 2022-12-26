@@ -2,7 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 body{
 	background-color: #21D4FD;
-background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+background-image: linear-gradient(251deg, #00d790 0%, #d40066 100%)
+/* background-image:url(4.jpg); */
+
 
 }
 .wrapper {
@@ -54,7 +56,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
 	border-bottom-right-radius: 15px;
 }
 .spooky_bg {
-	background: url(a.jpg);
+	background: url(6_2.jpg);
 	background-size: cover;
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;
@@ -70,7 +72,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
 }
 .spooky_bg2 {
 	display: none;
-	background: url(a.jpg);
+	background: url(5.jpg);
 	background-size: cover;
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;
