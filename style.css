@@ -54,7 +54,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
 	border-bottom-right-radius: 15px;
 }
 .spooky_bg {
-	background: url(https://cdn.pixabay.com/photo/2018/05/10/11/34/concert-3387324__340.jpg);
+	background: url(a.jpg);
 	background-size: cover;
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;
@@ -70,7 +70,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
 }
 .spooky_bg2 {
 	display: none;
-	background: url(https://cdn.thetealmango.com/wp-content/uploads/2021/10/squiddd.jpg);
+	background: url(a.jpg);
 	background-size: cover;
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;
